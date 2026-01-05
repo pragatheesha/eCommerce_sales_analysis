@@ -26,8 +26,6 @@ os.makedirs('visualizations', exist_ok=True)
 plt.savefig("visualizations/sales_by_product.png")
 plt.show()
 
-import os
-
 # VISUALIZATION 2: PIE CHART
 category_sales = df.groupby("Product")["Total_Sales"].sum()
 
