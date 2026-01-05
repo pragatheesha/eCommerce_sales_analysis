@@ -1,0 +1,5 @@
+pandas
+matplotlib
+
+Install:
+pip install pandas matplotlib
